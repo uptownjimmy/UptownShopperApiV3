@@ -1,0 +1,14 @@
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/bin/Debug/netcoreapp2.1/WebApi.deps.json
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/bin/Debug/netcoreapp2.1/WebApi.runtimeconfig.json
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/bin/Debug/netcoreapp2.1/WebApi.runtimeconfig.dev.json
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/bin/Debug/netcoreapp2.1/WebApi.dll
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/bin/Debug/netcoreapp2.1/WebApi.pdb
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.csprojAssemblyReference.cache
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.csproj.CoreCompileInputs.cache
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorAssemblyInfo.cache
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorAssemblyInfo.cs
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.AssemblyInfoInputs.cache
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.AssemblyInfo.cs
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorTargetAssemblyInfo.cache
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.dll
+/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/Debug/netcoreapp2.1/WebApi.pdb

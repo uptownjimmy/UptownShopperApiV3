@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/WebApi.csproj",
+    "projectName": "WebApi",
+    "projectPath": "/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/WebApi.csproj",
+    "outputPath": "/Users/uptownjimmy/Dropbox/uJ/NET/UptownShopperApiV3/WebApi/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.AspNetCore.HttpsPolicy": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "Npgsql": {
+          "target": "Package",
+          "version": "[4.0.3, )"
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+          "target": "Package",
+          "version": "[1.1.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
