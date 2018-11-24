@@ -39,5 +39,47 @@ namespace WebApi.Controllers
             }     
             return item; 
         }
+        
+        [HttpPost]
+        public IActionResult Create(Item item)
+        {
+            _context.Items.Add(item);
+            _context.SaveChanges();
+
+            return CreatedAtRoute("GetItem", new { id = item.Id }, item);
+        }
+        
+        [HttpPut("{id}")]
+        public IActionResult Update(long id, Item item)
+        {
+            var itemToUpdate = _context.Items.Find(id);
+            if (itemToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            itemToUpdate.Name = item.Name;
+            itemToUpdate.Item_Type = item.Item_Type;
+            itemToUpdate.Active = item.Active;
+            itemToUpdate.Notes = item.Notes;
+
+            _context.Items.Update(itemToUpdate);
+            _context.SaveChanges();
+            return NoContent();
+        }
+        
+        [HttpDelete("{id}")]
+        public IActionResult Delete(long id)
+        {
+            var todo = _context.Items.Find(id);
+            if (todo == null)
+            {
+                return NotFound();
+            }
+
+            _context.Items.Remove(todo);
+            _context.SaveChanges();
+            return NoContent();
+        }
     }
 }
