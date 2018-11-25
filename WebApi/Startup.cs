@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 using WebApi.Models;
 
 namespace WebApi
@@ -26,6 +27,28 @@ namespace WebApi
             );
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v3", new Info
+                {
+                    Title = "Uptown Shopper API", 
+                    Version = "v3",
+//                    Description = "A simple example ASP.NET Core Web API",
+//                    TermsOfService = "None",
+//                    Contact = new Contact
+//                    {
+//                        Name = "Shayne Boyer",
+//                        Email = string.Empty,
+//                        Url = "https://twitter.com/spboyer"
+//                    },
+//                    License = new License
+//                    {
+//                        Name = "Use under LICX",
+//                        Url = "https://example.com/license"
+//                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +65,12 @@ namespace WebApi
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v3/swagger.json", "Uptown Shopper API V3");
+            });
         }
     }
 }
